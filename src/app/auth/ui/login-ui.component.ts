@@ -17,7 +17,7 @@ import {MatIconModule} from '@angular/material/icon';
       </mat-card-header>
 
       <mat-card-content>
-        @if (error) {
+        @if (error()) {
           <div class="error-message">
             <mat-icon>error</mat-icon>
             <span>{{ error() }}</span>
