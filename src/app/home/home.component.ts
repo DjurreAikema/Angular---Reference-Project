@@ -99,5 +99,4 @@ import {NavbarComponent} from '../shared/ui/navbar.component';
 export default class HomeComponent {
 
   authService = inject(AuthService)
-
 }
